@@ -34,7 +34,7 @@ Follow the steps below when using the get_core_masses.core_mass_fits() function:
           
           high_res_coldens_image = 'cep1172_255_mu.image.resamp.fits', # High resolution column density image produced by prepareobs
           
-          SED_figure_directory = '/Users/jkeown/Desktop/HGBS_pipeline-master/L1172_core_SED/', # Path to the directory where the figures     created by the function will be stored
+          SED_figure_directory = '/Users/jkeown/Desktop/HGBS_pipeline-master/L1172_core_SED/', # Path to the directory where the figures created by the function will be stored
           
           CSAR_catalog = 'CEPl1172_CSAR.dat' # CSAR extraction catalog
           
