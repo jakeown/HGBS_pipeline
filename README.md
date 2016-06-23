@@ -9,7 +9,7 @@ Follow the steps below when using the get_core_masses.core_mass_fits() function:
 
 2) Perform a CSAR extraction on your region in the HGBS prescribed method.  
 
-3) Make sure the following Python packages are installed: numpy, pylab, scipy.optimize, scipy.stats, matplotlib, astropy, aplpy
+3) Make sure the following Python packages are installed: numpy, pylab, scipy, matplotlib, astropy, aplpy
     (I recommend using the Ureka Python environment, which is what I used to test the scripts)
 
 4) open a terminal and move to the directory containing the HGBS_pipline scripts
