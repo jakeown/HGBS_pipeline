@@ -18,8 +18,8 @@ Follow the steps below when using the get_core_masses.core_mass_fits() function:
 
 6) insert the proper variable names that the function requires and run the function (example below using L1172 region):
       get_core_masses.core_mass_fits(
-          region_name = 'L1172', # Name of the region observed
-          distance = 288., # Distance to region (pc)
+          region_name = 'L1172', # Name of the region observed //
+          distance = 288., # Distance to region (pc) //
           getsources_core_catalog = 'L1172.sw.final.reliable.ok.cat', # getsources core extraction final catalog
           getsources_additional_catalog = 'L1172.sw.final.reliable.add.ok.cat', # getsources core extraction "additional" catalog
           YSO_catalog = 'YSO_catalog.cat', # getsources protostar extraction final catalog
