@@ -6,5 +6,7 @@ If you encounter any problems with the pipeline, please let me know.  Also, if y
 Follow the steps below when using the get_core_masses.core_mass_fits() function:
 
 1) Perform a getsources core and protostar extraction on your region in the HGBS prescribed method.
+
 2) Perform a CSAR extraction on your region in the HGBS prescribed method.  
+
 3) 
