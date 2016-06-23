@@ -18,15 +18,24 @@ Follow the steps below when using the get_core_masses.core_mass_fits() function:
 
 6) insert the proper variable names that the function requires and run the function (example below using L1172 region):
       get_core_masses.core_mass_fits(
-          region_name = 'L1172', # Name of the region observed //
-          distance = 288., # Distance to region (pc) //
+          region_name = 'L1172', # Name of the region observed 
+          
+          distance = 288., # Distance to region (pc) 
+          
           getsources_core_catalog = 'L1172.sw.final.reliable.ok.cat', # getsources core extraction final catalog
+          
           getsources_additional_catalog = 'L1172.sw.final.reliable.add.ok.cat', # getsources core extraction "additional" catalog
+          
           YSO_catalog = 'YSO_catalog.cat', # getsources protostar extraction final catalog
+          
           YSO_additional_catalog = 'YSO_catalog_add.cat', # getsources protostar extraction "additional" catalog
+          
           high_res_coldens_image = 'cep1172_255_mu.image.resamp.fits', # High resolution column density image produced by prepareobs
+          
           SED_figure_directory = '/Users/jkeown/Desktop/HGBS_pipeline-master/L1172_core_SED/', # Path to the directory where the figures     created by the function will be stored
-          CSAR_catalog = 'CEPl1172_CSAR.dat' # CSAR extraction catalog; 
+          
+          CSAR_catalog = 'CEPl1172_CSAR.dat' # CSAR extraction catalog
+          
           ***MAKE SURE FIRST TWO COLUMNS OF "CSAR_catalog" FILE ARE X_POSITION AND Y_POSITION OF SOURCE IN DECIMAL DEGREES*** 
           )
           
