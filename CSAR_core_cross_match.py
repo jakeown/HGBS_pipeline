@@ -33,11 +33,8 @@ def cross_match_CSAR(getsources_core_catalog = '/mnt/scratch-lustre/jkeown/Getso
 	matched_cores = []
 	for line in cores_array:	
 
-		c1 = astropy.coordinates.Angle(line[3], u.degree)
-		c2 = astropy.coordinates.Angle(line[4], u.degree)
-
-		x_coor = str(c1.degrees)
-		y_coor = str(c2.degrees)
+		x_coor = str(line[3])
+		y_coor = str(line[4])
 	
 		### Create a DS9 region string for the core's getsources ellipse, 
 		### from which a mask will be created. 
