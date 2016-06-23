@@ -17,7 +17,9 @@ Follow the steps below when using the get_core_masses.core_mass_fits() function:
 5) open iPython session and import get_core_masses
 
 6) insert the proper variable names that the function requires and run the function (example below using L1172 region):
+      
       get_core_masses.core_mass_fits(
+          
           region_name = 'L1172', # Name of the region observed 
           
           distance = 288., # Distance to region (pc) 
