@@ -23,6 +23,8 @@ Follow the steps below when using the get_core_masses.core_mass_fits() function:
             aplpy 1.0
             
             pyregion 1.1.4
+            
+            astroquery 0.3.2
 
 4) open a terminal and move to the directory containing the HGBS_pipline scripts
 
