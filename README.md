@@ -52,7 +52,7 @@ Follow the steps below when using the get_core_masses.core_mass_fits() function:
           
           CSAR_catalog = 'CEPl1172_CSAR.dat' # CSAR extraction catalog
           
-          ***MAKE SURE FIRST TWO COLUMNS OF "CSAR_catalog" FILE ARE X_POSITION AND Y_POSITION OF SOURCE IN DECIMAL DEGREES*** 
+          ***MAKE SURE FIRST TWO COLUMNS OF "CSAR_catalog" FILE ARE RA AND DEC OF SOURCE IN DECIMAL DEGREES*** 
           )
           
 After the function runs, it will produce PDF files of the SEDs for each core identified by getsources that passes the HGBS detection criteria established in Konyves et al (2015).  The cores that have "_NA" appearing in the file title have unreliable SED fits and their masses were estimated based on the flux from the longest significant wavelength.  
