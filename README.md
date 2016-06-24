@@ -9,7 +9,7 @@ Follow the steps below when using the get_core_masses.core_mass_fits() function:
 
 2) Perform a CSAR extraction on your region in the HGBS prescribed method.  
 
-3) Make sure the following Python packages are installed: numpy, pylab, scipy, matplotlib, astropy, aplpy, pyregion
+3) Make sure the following Python packages are installed: numpy, pylab, scipy, matplotlib, astropy, aplpy, pyregion, astroquery.
         I recommend using the Ureka Python environment, which is what I used to test the scripts. Below are the versions of the packages I used to test the scipts:
         
             numpy 1.8.1
