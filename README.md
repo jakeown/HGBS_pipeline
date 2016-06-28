@@ -18,7 +18,7 @@ Follow the steps below when using the get_core_masses.core_mass_fits() function:
             
             matplotlib 1.3.1
             
-            astropy 0.3.2
+            astropy 1.2.1
             
             aplpy 1.0
             
