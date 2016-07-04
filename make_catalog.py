@@ -202,11 +202,12 @@ def make_catalog(region_name, cloud_name, distance, good_cores_array, additional
 	Ned.ROW_LIMIT = 1
 	results2 = []
 	for i,j in zip(RA,Dec):
+		result_table_value='Yes'
 		try:
 			result_table = Ned.query_region(astropy.coordinates.SkyCoord(ra=i, dec=j, unit=(u.deg, u.deg)), radius=6. * u.arcsec)
 		except astroquery.exceptions.RemoteServiceError: 
-			result_table=None
-		if result_table != None:
+			result_table_value=None
+		if result_table_value != None:
 			results2.append(result_table['Object Name'][0].replace(" ", "_"))
 		else:
 			results2.append('None')
