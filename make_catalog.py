@@ -136,7 +136,7 @@ def make_catalog(region_name, cloud_name, distance, good_cores_array, additional
 			DEC_degs = str('{:.0f}'.format(round(DEC.dms[0],2)).zfill(3))
 			DEC_minutes = str('{:.0f}'.format(round(DEC.dms[0]*-1,2)).zfill(2))
 			DEC_seconds = str('{:.2f}'.format(round(DEC.dms[2]*-1,2)).zfill(5))
-			HGB_name = RA_hours+RA_minutes+RA_seconds[0:4]+DEC_degs+DEC_minutes+DEC_seconds[0:2]
+			HGBS_name = RA_hours+RA_minutes+RA_seconds[0:4]+DEC_degs+DEC_minutes+DEC_seconds[0:2]
 			
 		RA_array.append(RA_hours + ':' + RA_minutes + ':' + RA_seconds)
 		Dec_array.append(DEC_degs + ':' + DEC_minutes + ':' + DEC_seconds)
